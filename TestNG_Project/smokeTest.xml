@@ -1,0 +1,34 @@
+<suite name="smokeTest">
+
+			<test name="HomePage">
+
+		
+				<classes>
+				
+				
+					<class name="com.test.testngExamples.FirstTest">
+					
+						<methods>
+								<include name="FirstTest">
+								</include>
+						</methods>
+					
+					
+					
+					</class>
+				
+				<class name="com.test.testngExamples.SecondTest">
+					
+							
+				</class>
+				
+				
+				
+				
+				</classes>
+
+
+			</test>
+
+
+</suite>

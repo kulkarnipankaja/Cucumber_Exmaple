@@ -1,0 +1,21 @@
+<suite name="parameters"> 
+
+
+<parameter name="loginName" value="tester1"></parameter>
+<parameter name="password" value="testerpw"></parameter>
+<test name="ParametersTest">
+<classes>
+<class name="com.test.testngExamples.ParameterExamples">
+
+</class>
+
+</classes>
+
+
+</test>
+
+
+
+
+
+</suite>

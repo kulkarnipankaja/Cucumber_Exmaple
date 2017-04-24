@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28051" started-at="2017-04-22T23:43:39Z" finished-at="2017-04-22T23:44:07Z">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="FirstTest.PurchaseTicket()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="PurchaseTicket" class="com.test.testngExamples.FirstTest"/>
+      </group> <!-- RegressionTest -->
+      <group name="smokeTest">
+        <method signature="FirstTest.RegisterUser()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="RegisterUser" class="com.test.testngExamples.FirstTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="28051" started-at="2017-04-22T23:43:39Z" finished-at="2017-04-22T23:44:07Z">
+      <class name="com.test.testngExamples.FirstTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="11156" started-at="2017-04-22T16:43:39Z" finished-at="2017-04-22T16:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PurchaseTicket()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="PurchaseTicket" duration-ms="1072" started-at="2017-04-22T16:43:50Z" finished-at="2017-04-22T16:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseTicket -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="afterMethod" is-config="true" duration-ms="1019" started-at="2017-04-22T16:43:51Z" finished-at="2017-04-22T16:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="9931" started-at="2017-04-22T16:43:52Z" finished-at="2017-04-22T16:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RegisterUser()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="RegisterUser" duration-ms="3997" started-at="2017-04-22T16:44:02Z" finished-at="2017-04-22T16:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.testngExamples.FirstTest@548b7f67]" name="afterMethod" is-config="true" duration-ms="854" started-at="2017-04-22T16:44:06Z" finished-at="2017-04-22T16:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test.testngExamples.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

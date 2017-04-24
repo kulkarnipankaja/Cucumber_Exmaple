@@ -1,0 +1,21 @@
+<suite name ="Grouping">
+
+	<test name="groupTest">
+		<groups>
+				<run>
+				
+					<include name ="RegressionTest"></include>
+				
+				
+				</run>
+		
+		
+		</groups>
+		<classes>
+			<class name ="com.test.testngExamples.FirstTest">
+			</class>
+			
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,31 @@
+<suite name="ParallelTest" parallel="test">
+
+<test name="Parallel">
+
+<parameter name="BrowserType" value="firefox">
+</parameter>
+<classes>
+
+<class name="com.test.testngExamples.ParallelTest">
+</class>
+
+</classes>
+
+</test>
+
+
+<test name="ChromeTest">
+
+<parameter name="BrowserType" value="Chrome">
+</parameter>
+<classes>
+
+<class name="com.test.testngExamples.ParallelTest">
+</class>
+
+</classes>
+
+</test>
+
+
+</suite>
